@@ -1,0 +1,14 @@
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\bin\Debug\netstandard2.1\Entidad.dll
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\JamesV\OneDrive\Escritorio\5 semestre\ProgramacionWeb\CarniceriaWeb\Logica\obj\Debug\netstandard2.1\Logica.pdb

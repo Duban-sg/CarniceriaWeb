@@ -1,0 +1,22 @@
+<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+    <li [ngbNavItem]="1">
+        <a ngbNavLink [routerLink]="['/productoCarrito']" >Carrito</a>
+        <ng-template ngbNavContent>
+       
+        </ng-template>
+    </li>
+    <li [ngbNavItem]="2" >
+        <a ngbNavLink [routerLink]="['/informacionCompra']" >Informacion</a>
+        <ng-template ngbNavContent> 
+        
+        </ng-template>
+    </li>
+    <li [ngbNavItem]="3">
+        <a ngbNavLink>Envios</a>
+        <ng-template ngbNavContent>
+        
+        </ng-template>
+    </li>
+</ul>
+
+

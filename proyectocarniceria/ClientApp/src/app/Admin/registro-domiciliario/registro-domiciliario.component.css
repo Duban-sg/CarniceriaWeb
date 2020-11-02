@@ -1,0 +1,14 @@
+.informacionContenedor{
+    width: 500px;
+}
+.conteinermain{
+    display: inline-flex;
+}
+h2{
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px black solid  ;
+}
+.informacionContenedordos{
+    margin-left: 50px;
+}

@@ -1,0 +1,30 @@
+.carrito{
+    background-color:rgba(0, 0, 0, .9);
+    color: white;
+    height: 100%;
+    width: 380px;
+    display: block; 
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+       
+}
+.contenido{
+    height: 450px;
+}
+
+.lineaTitulo{
+    background-color: white ;
+    width: 280px;
+}
+
+.carrito .btn {
+    color: white;
+    margin: 5px;
+}
+
+.carrito .btn:hover{
+    background-color: #400112;
+}
+
+

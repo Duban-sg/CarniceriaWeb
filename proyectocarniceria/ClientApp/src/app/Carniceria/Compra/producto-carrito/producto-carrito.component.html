@@ -1,0 +1,82 @@
+<div>
+    <div class="paginacion">
+        <app-gestion-factura></app-gestion-factura>
+        <div>
+
+            <div class="center">
+    
+                <h2>Carrito de compras</h2>
+            </div>
+    
+            <div>
+                <div>
+                    <h4>Productos</h4>
+                </div>
+                <div class="cont-comprar">
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="card" style="width: 19rem;">
+                                        <img src="https://magazine.medlineplus.gov/images/uploads/main_images/red-meat.png"
+                                            class="card-img-top" alt="...">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="card" style="width: 19rem; ">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carne </h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Calidad: 1A</h6>
+                                            <p class="card-text">Precio por item: 5000</p>
+                                            <p class="card-text">Cantidad: <input type="number"></p>
+                                            <p class="card-text">TotaL: 50000</p>
+                                            <button type="button" class="btn btn-outline-secondary">Eliminar</button>
+                                        </div>
+                                    </div>
+                                </td>
+    
+                            </tr>
+                            <tr>
+    
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://rebajarime.com/wp-content/uploads/2020/04/pollo.jpg"
+                                            class="card-img-top" alt="...">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="card" style="width: 19rem; ">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Pollo </h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Calidad: 1A</h6>
+                                            <p class="card-text">Precio por item: 6000</p>
+                                            <p class="card-text">Cantidad: <input type="number"></p>
+                                            <p class="card-text">TotaL: 60000</p>
+                                            <button type="button" class="btn btn-outline-secondary">Eliminar</button>
+                                        </div>
+                                    </div>
+                                </td>
+    
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">SUBTOTAL </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">11000</h6>
+                            <p class="card-text">Impuestos incluidos</p>
+                            <button type="button" class="btn btn-outline-secondary">Comprar</button>
+                            <div>
+                                <button type="button" [routerLink]="['/informacionCompra']" class="btn btn-outline-secondary">Seguir
+                                    comprando--></button>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</div>

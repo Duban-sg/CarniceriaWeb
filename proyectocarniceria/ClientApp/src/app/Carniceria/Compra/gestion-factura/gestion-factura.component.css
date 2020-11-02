@@ -1,0 +1,20 @@
+.paginacion{
+    background-color: white;
+}
+
+.card{
+    height: 16rem;
+}
+.cont-comprar{
+    display: flex;
+}
+h2{
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px black solid  ;
+}
+
+a{
+    color: black;
+}
+

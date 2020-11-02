@@ -1,0 +1,212 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .navbar{
+    height: 90px;
+
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+
+}
+
+.collapse{
+  margin-left: 45px;
+}
+
+.buscar{
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.buscar input{
+  width: 260px;
+}
+
+.Componentes{
+  margin-left: 95px;
+  display: inline-flex;
+}
+
+.Componentes button{
+  height: 40px;
+  margin-left: 10px;
+  border: 0;
+  color: white;
+}
+
+.Componentes button:hover{
+  background-color:#BF3636;
+  color: azure;
+}
+
+
+
+nav.navbar {
+  background-color: #400112;
+
+}
+
+.decoracionBarra{
+  background-color: #8C3048;
+  
+}
+
+
+.overlay{
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;;
+  display: flex;
+  align-items: left;
+  justify-items: left;
+  visibility: hidden;
+  z-index: 3;
+}
+
+
+.overlay.active{
+  visibility: visible;
+}
+
+.popup{
+  right: 100%;
+  width: 380px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position:fixed;
+  align-items: left;
+  justify-items: left;
+
+}
+
+.popup button{
+  background-color:#BF3636;
+  color: white;
+  transition: .4s ease all;
+  width: 380px;
+  box-shadow: 5px,5px,5px,5px, rgba(255, 255, 255, 0.253);
+
+
+}
+
+
+.popup button:hover{
+  background-color:hsl(0, 54%, 41%);
+  /*background-color: #400112;*/
+}
+
+.AfueraCarrito{
+  
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top:0;
+  border: none;
+}
+
+.form-inline .btn{
+  background-color:#BF3636;
+  color: white;
+}
+
+.form-inline .btn:hover{
+  background-color:hsl(0, 54%, 41%);
+  color: azure;
+}
+
+.CantidadProducto{
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.dropdown-menu{
+  display:none;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu:hover{
+  display: block;
+  transition: .9s ease all;
+}
+
+.division-login hr{
+  width: 20px;
+}
+
+
+.division-login{
+  display:block;
+  height: 20px;
+}
+
+#hr1{
+  float: left;
+  margin-left: 50px;
+}
+
+#hr2{
+  margin-right: 20px;
+  float: left;
+}
+
+#lbO{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  float: left;
+  
+}
+
+.hr-menu1{
+  width: 100px;
+}
+
+.dropdown-item{
+  height: 30px;
+}
+
+.dropdown-item:hover{
+  background-color:#BF3636;
+  color:white;
+  transition: .3s ease all;
+  border-radius: 4px;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
