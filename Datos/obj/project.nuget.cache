@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uh2a656QaeVzxVM9hvZ72dL4lZR181I9DWS9ErNqayyQ0BzjoacEVjOXJpOdBAoz0KfT+8nq12aHsaTkGEE+Jw==",
+  "dgSpecHash": "Ig0chJ3LcdZN0NiVsRNb47ABczkFr1M2CEguCye1RDbs027rB9+tYT7SsGBC3pUyYYAQIoElhQHilZk0f5avqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\JamesV\\OneDrive\\Escritorio\\5 semestre\\ProgramacionWeb\\CarniceriaWeb\\Datos\\Datos.csproj",
   "expectedPackageFiles": [
@@ -56,7 +56,7 @@
     "C:\\Users\\JamesV\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\JamesV\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Users\\JamesV\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
-    "C:\\Users\\JamesV\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
+    "C:\\Users\\JamesV\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\JamesV\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\JamesV\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\JamesV\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",

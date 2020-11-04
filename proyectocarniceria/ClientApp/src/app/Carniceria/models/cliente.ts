@@ -4,7 +4,7 @@ export class Cliente {
     nombre:string;
     apellido:string;
     correo:string;
-    contraseña:string;
+    password:string;
     carrito : Factura;
     direccion:string;
 }

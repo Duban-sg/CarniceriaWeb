@@ -1,0 +1,62 @@
+
+.Nombre{
+    float: left;
+    width: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.Precio{
+    float: left;
+    width: 90;
+    margin-top: 20px;
+    margin-left:30px;
+}
+.CantidadRegistrar{
+    float: left;
+    width: 90;
+    margin-top: 20px;
+    margin-left:30px;
+}
+.Cat-tag{
+    float: left;
+    width: 90;
+    margin-top: 20px;
+    margin-left:30px;
+
+}
+
+.div1{
+    display: flex;
+}
+
+.btn{
+    background-color:  #BF3636;
+    color: white;
+}
+
+.div-tag-btn{
+    width: 50%;
+    float: left;
+}
+
+.table{
+    width: 50%;
+    float: right;
+}
+.div-tag{
+    margin-top: 50px;
+    margin-bottom:200px;
+    margin-left:30px;
+}
+
+.div-descripcion{
+    margin-left:30px;
+    
+}
+.div-cat{
+    margin-left:30px;
+}
+.d-inline-block{
+    margin-right: 20px;
+}

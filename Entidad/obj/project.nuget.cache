@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WU82/32WXH9zLMWPPV4TmGlQMJZn48f6DsQn2bSMpsEuzyOcaqzy5Cj2ssHrXiH7g0EyQV6GxSW78US6s7OUYA==",
+  "dgSpecHash": "b95r3+OlVeDtqlfHvmC7HLgD/wj1xoNqq+jXXxmYLo1yuI3TtPR1GxBRzriASVO66Ue+6NsKNWFwl5IfQF3lMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\JamesV\\OneDrive\\Escritorio\\5 semestre\\ProgramacionWeb\\CarniceriaWeb\\Entidad\\Entidad.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\JamesV\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

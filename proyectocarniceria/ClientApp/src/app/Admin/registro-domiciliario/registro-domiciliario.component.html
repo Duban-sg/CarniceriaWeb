@@ -1,5 +1,4 @@
 <div>
-
     <div>
         <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
             <ngb-panel title="Registro domiciliario">
@@ -8,49 +7,73 @@
                         <h2>Registro domiciliario</h2>
                     </div>
                     <div class="conteinermain">
-                        <div class="informacionContenedoruno informacionContenedor">
-                            <h3>Informacion del domiciliario</h3>
-                            <form>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="inputEmail" placeholder="Correo electronico">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="inputEmail" placeholder="Cedula de ciudadania">
-                                </div>
-                                <div class="form-row">
+                        <div>                    
+                            <form class="form-row" [formGroup]="registerDomiciliaryForm">
+                                <div class="partesuperior">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                                        <h3>Informacion del domiciliario</h3>
                                     </div>
-                                    <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+
+                                    <div class="form-group ">
+                                        <input type="email" class="form-control" id="inputEmail" name="inputEmail" formControlName="inputEmail"
+                                            placeholder="Correo electronico">
                                     </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="inputIdentificacion" name="inputIdentificacion" formControlName="inputIdentificacion"
+                                            placeholder="inputIdentificacion">
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <input type="text" class="form-control" id="inputNombre" name="inputNombre" formControlName="inputNombre"
+                                                placeholder="Nombre">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <input type="text" class="form-control" id="inputApellido" name="inputApellido" formControlName="inputApellido"
+                                                placeholder="Apellido">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" id="inputTelefono" name="inputTelefono" formControlName="inputTelefono"
+                                            placeholder="Telefono">
+                                    </div>
+
                                 </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control" id="inputTelefono" placeholder="Telefono">
+                                <div class="archivos">
+                                    <div class="form-group col-md-6">
+                                        <h3>Soporte del vehiculo</h3>
+                                    </div>
+                                    <!--
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputLicenciaConducir">SOAT</label>
+                                            <input type="file" class="form-control DocVehiculo" name="inputLicenciaConducir"
+                                                id="inputlicenciaConducir">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPermisoCirculacion">Revision tecnomecanica</label>
+                                            <input type="file" class="form-control DocVehiculo" name="inputPermisoCirculacion"
+                                                id="inputpermisoCirculacion">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputTarjetaPropiedad">Tarjeta de propiedad</label>
+                                            <input type="file" class="form-control DocVehiculo" name="inputTarjetaPropiedad"
+                                                id="inputTarjetaPropiedad">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputNumeroPlaca">Nro. Placa</label>
+                                            <input type="text" class="form-control DocVehiculo" id="inputNumeroPlaca" name="inputNumeroPlaca">
+                                        </div>
+                                    </div>
+                                -->
+                                </div>
+                                
+                                <div class="posicionboton">
+                                    <button class="btn btn-outline-secondary" (click)="onSubmit()" [disabled]="registerDomiciliaryForm.invalid">Registrar</button>
                                 </div>
                             </form>
-                        </div>
-                        <div class="informacionContenedordos informacionContenedor">
-                            <h3>Soporte del vehiculo</h3>
-                            <form class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputLicenciaConducir">SOAT</label>
-                                    <input type="file" class="form-control DocVehiculo" id="inputlicenciaConducir">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputPermisoCirculacion">Revision tecnomecanica</label>
-                                    <input type="file" class="form-control DocVehiculo" id="inputpermisoCirculacion">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputTarjetaPropiedad">Tarjeta de propiedad</label>
-                                    <input type="file" class="form-control DocVehiculo" id="inputTarjetaPropiedad">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputNumeroPlaca">Nro. Placa</label>
-                                    <input type="text" class="form-control DocVehiculo" id="inputNumeroPlaca">
-                                </div>
-                            </form>
-                        </div>
+                        </div>  
                     </div>
                 </ng-template>
             </ngb-panel>

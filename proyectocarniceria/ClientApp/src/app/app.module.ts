@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+//forms
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -23,6 +25,8 @@ import { InformacionComponent } from './Carniceria/Compra/informacion/informacio
 import { ProductoCarritoComponent } from './Carniceria/Compra/producto-carrito/producto-carrito.component';
 import { EnviosComponent } from './Carniceria/Compra/envios/envios.component';
 import { CarouselComponent } from './carousel/carousel.component';
+
+
 
 //bootstrap
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -54,6 +58,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
+    ReactiveFormsModule,
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([

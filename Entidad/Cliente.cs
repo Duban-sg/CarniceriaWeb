@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 namespace Entidad
 {
     public class Cliente:Persona
@@ -5,10 +6,5 @@ namespace Entidad
        public Factura Carrito {get;set;}
        public string Direccion {get;set;}
 
-
-
-
-
-        
     }
 }

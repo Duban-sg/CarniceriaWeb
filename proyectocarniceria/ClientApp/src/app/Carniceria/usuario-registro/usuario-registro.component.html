@@ -1,20 +1,20 @@
 <div class="Contenedor-form shadow-lg p-3 mb-5 rounded">
     <h2>Registro</h2>
-    <form>
+    <form  [formGroup]="formRegistroCliente">
         <div class="form-group "> 
-            <input type="text" class="form-control" name="inputNombre" placeholder="Nombre">
+            <input type="text" class="form-control" name="inputNombre" [(ngModel)]="cliente.nombre" placeholder="Nombre" formControlName="inputNombre">
         </div>
         <div class="form-group ">
-            <input type="text" class="form-control" name="inputApellido" placeholder="Apellido">
+            <input type="text" class="form-control" name="inputApellido" [(ngModel)]="cliente.apellido" placeholder="Apellido" formControlName="inputApellido">
         </div>
         <div class="form-group ">
-            <input type="email" class="form-control" name="inputEmail" placeholder="Email">
+            <input type="email" class="form-control" name="inputEmail" [(ngModel)]="cliente.correo" placeholder="Email" formControlName="inputEmail">
         </div>
         <div class=" form-group">
-            <input type="password" class="form-control" name="inputPassword" placeholder="Contraseña">
+            <input type="password" class="form-control" name="inputPassword" [(ngModel)]="cliente.password" placeholder="Contraseña" formControlName="inputPassword">
         </div>
         <div class="posicionboton">
-            <button class="btn btn-outline-secondary"  >Registrar</button>
+            <button class="btn btn-outline-secondary" (click)="onSubmit()" [disabled]="formRegistroCliente.invalid">Registrar</button>
         </div>
         <div class="enlace">
             <a href="#">¿Ya tienes una cuenta?</a>

@@ -14,6 +14,7 @@ import { InformacionComponent } from './Carniceria/Compra/informacion/informacio
 import { EnviosComponent } from './Carniceria/Compra/envios/envios.component';
 import { ProductoCerdoComponent } from './Carniceria/Producto/producto-cerdo/producto-cerdo.component';
 import { RegistroDomiciliarioComponent } from './Admin/registro-domiciliario/registro-domiciliario.component';
+import { RegistroProductoComponent } from './Admin/registro-producto/registro-producto.component';
 
 const routes: Routes = [
 
@@ -79,6 +80,10 @@ const routes: Routes = [
   {
     path:'pollo',
     component: ProductoPolloComponent
+  },
+  {
+    path:'registro-producto',
+    component: RegistroProductoComponent
   }
 
 

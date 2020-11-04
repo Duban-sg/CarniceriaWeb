@@ -1,3 +1,6 @@
+using System.ComponentModel.DataAnnotations;
+using System;
+
 namespace Entidad
 {
     public class Producto
@@ -8,6 +11,12 @@ namespace Entidad
         public decimal CantidadEnStock {get; set;}
         public decimal ValorUnitario{get; set;}
         public string descripcion {get;set;}
+        public string Categoria {get;set;}
+        public string Tag {get;set;}
+
+
+        public int DetalleID {get; set;}
+        public DetalleFactura DetalleFactura {get; set;}
         
 
         

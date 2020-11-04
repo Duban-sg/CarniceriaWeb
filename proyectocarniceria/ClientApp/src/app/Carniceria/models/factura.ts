@@ -1,5 +1,11 @@
+import { Cliente } from "./cliente";
+import { DetalleFactura } from "./DetalleFactura";
+
 export class Factura {
-    nombreEstado:String;
+
+    cliente:Cliente;
     fecha:Date;
+    detallesFactura:DetalleFactura ;
+    total:number;
 
 }
